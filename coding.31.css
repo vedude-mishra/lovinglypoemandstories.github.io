@@ -1,0 +1,65 @@
+.parent{
+	color: red;
+	font-style: oblique;
+	background: cyan;
+    font-size: x-large;
+}
+
+.info1{
+	color: orange;
+	font-style: italic;
+	font-size: large;
+}
+
+.info2{
+	color: ;
+	font-style: inherit;
+	font-display: initial;
+	font-size: medium;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;          /*You can change this*/
+	text-align: center;
+	font-family: 'Langar', cursive;    /*You can change this*/
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 23px;
+}
+
+.nav a:hover {
+	background color: #f8b24b;    /*You can change this*/
+	color: black;
+	border-radius: 7px;
+}
+
+.nav a.active {
+	background-color: #f8b24b;     /*You can change this*/
+	color: black;                  /*You can change this*/
+	border-radius: 7px;
+}
+
+.nav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.nav.responsive {position: relative;}
+	.nav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+.nav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .icon{
+  	C:\Users\lenovo\Downloads\icon.jpg
+  }
+

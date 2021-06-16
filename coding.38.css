@@ -1,0 +1,12 @@
+.parent{
+	color: pink;
+	font-style: oblique;
+	background: gray;
+    font-size: x-large;
+}
+
+.info1{
+	color: palegreen;
+	font-style: italic;
+	font-size: large;
+}
